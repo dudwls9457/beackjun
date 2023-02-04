@@ -2,14 +2,15 @@ package test;
 
 import java.util.Scanner;
 
-public class beackjun2447 {
+public class beackjun25311 {
 
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		int N = sc.nextInt();
 		
-		char [][] star = new char[N][N];
-	
+		int year = sc.nextInt();
+		
+		System.out.println("A");
 	}
+
 }

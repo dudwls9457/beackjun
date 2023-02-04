@@ -38,10 +38,10 @@ public class beackjun7662 {
 							if(treemap.size() == 0 ) continue;
 							if(change == 1)
 							{
-								num =	treemap.lastKey();
+								num = treemap.lastKey();
 							}else
 							{
-								num =	treemap.firstKey();
+								num = treemap.firstKey();
 							}
 							if(treemap.put(num, treemap.get(num)-1)==1) {
 								treemap.remove(num);
